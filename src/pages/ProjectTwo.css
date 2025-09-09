@@ -1,0 +1,51 @@
+.project-two {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-two-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.project-two-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20rem;
+}
+
+.project-two-left {
+    flex: 1 1 300px;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.project-two-right {
+    flex: 1 1 300px;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+
+.project-two-image1 {
+    width: 55%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+.project-two-image2 {
+    width: 55%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+.project-two-image3 {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}

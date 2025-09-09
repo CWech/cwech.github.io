@@ -1,0 +1,48 @@
+.project-four{
+    padding: 2rem;
+}
+
+.project-four-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.project-four-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 20rem;
+}
+
+.project-four-left {
+    flex: 1 1 300px;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.project-four-right {
+    flex: 1 1 300px;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.project-four-image1 {
+    width: 65%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+.project-four-image2 {
+    width: 200%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+.project-four-image3 {
+    width: 66%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}

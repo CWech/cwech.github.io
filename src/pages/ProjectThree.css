@@ -1,0 +1,46 @@
+.project-three {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-two-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.project-three-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.project-three-left {
+    flex: 1 1 300px;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+.project-three-right {
+    flex: 1 1 300px;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.project-three-image1 {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+.project-three-image2 {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+.project-three-image3 {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
