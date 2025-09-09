@@ -20,7 +20,6 @@
   text-decoration: underline;
 }
 .projects a {
-  color: #007bff;
   font-weight: bold;
 }
 
@@ -45,7 +44,6 @@
 
 .projects {
   flex: 1;
-  background: #e8f4ff;
   padding: 2rem;
   border-radius: 8px;
 }
