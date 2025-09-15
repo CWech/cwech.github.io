@@ -74,13 +74,13 @@ function Home() {
                             <Link key={i} to={proj.path} className="project-card">
                                 <div className="project-info">
                                     <h3>{proj.title}</h3>
+                                    <div className="project-skills">
+                                        <h4>{proj.skills}</h4>
+                                    </div>
                                     <p>{proj.description}</p>
                                 </div>
                                 <div className="project-img-container">
                                     <img src={proj.image} alt={proj.title} className="project-image"/>
-                                </div>
-                                <div className="project-skills">
-                                    <p>{proj.skills}</p>
                                 </div>
                             </Link>
                         ))}

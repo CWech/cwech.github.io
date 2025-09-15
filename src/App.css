@@ -38,22 +38,27 @@
 .about {
   flex: 0 0 250px;
   background: #ffffff;
-  padding: 2rem;
   border-radius: 8px;
 }
 
 .projects {
   flex: 1;
-  padding: 2rem;
   border-radius: 8px;
 }
 
 .project-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-bottom: 2rem;
-  flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 .project-card {
   flex: 1 1 calc(50% - 1rem);
@@ -100,7 +105,6 @@
   border-radius: 8px;
   object-fit: cover;
 }
-
 
 .project-card h3 {
   margin: 0 0 0.5rem 0;
