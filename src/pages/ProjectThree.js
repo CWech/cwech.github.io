@@ -1,8 +1,10 @@
 import './ProjectThree.css';
+import { Link } from "react-router-dom";
 
 export default function ProjectThree() {
     return (
         <div className="project-page project-three">
+            <Link to="/" className="back-button">← Back</Link>
             <h1 className="project-two-title">Happy Mappy</h1>
 
             <div className="project-three-container">

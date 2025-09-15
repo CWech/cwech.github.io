@@ -1,8 +1,10 @@
 import './ProjectFour.css';
+import { Link } from "react-router-dom";
 
 export default function ProjectFour() {
     return (
         <div className="project-page project-four">
+            <Link to="/" className="back-button">← Back</Link>
             <h1 className="project-four-title">Twitch Streamer Similarity & Performance Analyzer</h1>
 
             <div className="project-four-container">
@@ -14,7 +16,6 @@ export default function ProjectFour() {
                     in terms of their average viewer duration and their streamer counts. This can be useful for smaller streamers to see how their metrics compare against the top streamers.
                     The project involved using parallel computing where algorithms such as Jaccard and Cosine similarity measures were used.</p>
                     <p>I also made a recommendation system to identify similar streamers based on shared viewership so viewers can find streamers similar to who they already enjoy. </p>
-                    <img src="/recstreamers.png" alt="Garden" className="project-four-image2"/>
                 </div>
 
                 <div className="project-four-right">

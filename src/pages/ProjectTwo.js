@@ -1,8 +1,10 @@
 import './ProjectTwo.css';
+import { Link } from "react-router-dom";
 
 export default function ProjectTwo() {
     return (
         <div className="project-page project-two">
+            <Link to="/" className="back-button">← Back</Link>
             <h1 className="project-two-title">Plant Pal</h1>
 
             <div className="project-two-container">

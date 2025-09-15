@@ -19,7 +19,7 @@ function Home() {
             title: "Happy Mappy",
             description: "Happy Mappy was a group project that analysed real New Zealand crash data. Happy Mappy allows users to see a detailed table with extensive sorting " +
                 "and filters to look at crash data. There are also features to see this data as clusters on a map, and be able to search for a route and see crashes along that route.",
-            path: "/project-three",
+            path: "/project-two",
             image: "/happymappylogo.png",
             skills: "Skills: Java, API's, Data Analysis"
         },
@@ -29,7 +29,7 @@ function Home() {
                 "help people manage their gardens. Plant Pal allows users to track and monitor plants, get notifications for watering, " +
                 "harvesting, and weeding, visualise gardens with a 2D plan, and explore community gardens to see how friends " +
                 "manage theirs.",
-            path: "/project-two",
+            path: "/project-three",
             image: "/plantpallogo.png",
             skills: "Skills: Testing, Java, HTML, Full Stack"
         },
@@ -99,8 +99,8 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/project-one" element={<ProjectOne />} />
-                    <Route path="/project-two" element={<ProjectTwo />} />
-                    <Route path="/project-three" element={<ProjectThree />} />
+                    <Route path="/project-three" element={<ProjectTwo />} />
+                    <Route path="/project-two" element={<ProjectThree />} />
                     <Route path="/project-four" element={<ProjectFour />} />
                 </Routes>
             </div>

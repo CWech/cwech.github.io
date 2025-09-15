@@ -1,8 +1,10 @@
 import './ProjectOne.css';
+import { Link } from "react-router-dom";
 
 export default function ProjectOne() {
     return (
         <div className="project-page">
+            <Link to="/" className="back-button">← Back</Link>
             <h1 className="project-title">AI NZ Coin Detector</h1>
             <div className="project-one-container">
 
