@@ -72,11 +72,11 @@
   flex-direction: row;
   gap: 1rem;
   flex-wrap: wrap;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.6);
 }
 
 .project-card:hover {;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.8);
 }
 .projects-note {
   font-size: 0.9rem;
@@ -114,7 +114,7 @@
   color: #555;
 }
 .hero {
-  background: #f7f7f7;
+  background: #00D5FF;
   padding: 2rem 2rem;
   text-align: center;
 }

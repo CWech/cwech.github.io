@@ -1,10 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import ProjectOne from "./pages/ProjectOne";
 import ProjectTwo from "./pages/ProjectTwo";
 import ProjectThree from "./pages/ProjectThree";
 import ProjectFour from "./pages/ProjectFour";
-import CV from "./pages/CV";
 import './App.css';
 
 function Home() {
@@ -97,7 +95,6 @@ function Home() {
 function App() {
     return (
         <Router>
-            <Navbar />
             <div className="content">
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -105,7 +102,6 @@ function App() {
                     <Route path="/project-two" element={<ProjectTwo />} />
                     <Route path="/project-three" element={<ProjectThree />} />
                     <Route path="/project-four" element={<ProjectFour />} />
-                    <Route path="/cv" element={<CV />} />
                 </Routes>
             </div>
         </Router>
