@@ -1,30 +1,57 @@
 import './ProjectTwo.css';
-import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 export default function ProjectTwo() {
     return (
-        <div className="project-page project-two">
-            <Link to="/" className="back-button">← Back</Link>
-            <h1 className="project-two-title">Plant Pal</h1>
+        <div>
+            <Navbar/>
+        <div
+            className="project-page"
+            style={{
+                backgroundImage: `
+            linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)),
+            url('/nz.jpg')`,
+                backgroundSize: "cover",
+                backgroundPosition: "center"}}
+        >
+        <div className="project-two">
+            <h1 className="project-title">Plant Pal</h1>
+            <p className="project-subtitle">
+                Social gardening app with tracking, 2D garden planning, and community features.</p>
 
             <div className="project-two-container">
                 <div className="project-two-left">
                     <h2>Project Overview</h2>
-                    <p>
-                        Plant Pal is a gardening application designed to help garden enthusiasts manage and maintain their home gardens more effectively. Plant Pal allows users to input detailed information about their gardens and the specific plants they grow. Once the garden and plant details are entered, users can create custom trackers, or find public trackers created by other gardeners for each plant to monitor essential activities such as watering, harvesting, and weeding. The application is designed to provide timely notifications, reminding users when these tasks need to be performed, ensuring that their plants receive the care they need to thrive.
-                    </p>
-                        <p>Throughout the application, we emphasized creating an intuitive user interface and ensuring that the application could handle various types of plants and garden setups. We also implemented features such as friend requests and searching for other users’ gardens to create a more community-driven experience, to see how your friends are managing their gardens. Additionally, the 2D garden plan template, allows users to visualise their gardens, plan for expansion, and organise their gardens effectively.</p>
-                    <p>Plant Pal is designed to accommodate gardeners of all skill levels, providing the tools to maintain a thriving garden, creating a more enjoyable and rewarding experience.</p>
-                    <p>Plant Pal was designed using gradle, Spring Boot, Thymeleaf, and GitLab CI.</p>
-                    <p>This project had a major focus on testing including unit, integration, automated, end-to-end, mocking, and extensive manual testing.</p>
-                    <img src="/plantpalgarden.png" alt="Garden" className="project-two-image3"/>
+                    <p>Plant Pal is a gardening application designed to help garden enthusiasts manage and maintain their home gardens more effectively.</p>
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Custom trackers to monitor activities such as watering, harvesting, and weeding.</li>
+                        <li>Friend requests and ability to search for other users' gardens.</li>
+                        <li>2D garden template to visualise gardens.</li>
+                        <li>Notifications with reminders of when tasks need to be performed.</li>
+                        <li>Extensive testing framework.</li>
+                    </ul>
+                    <h3>My Contributions</h3>
+                    <ul>
+                        <li>Helped extend testing framework with manual, unit, integration, and automated tests.</li>
+                        <li>Implemented API integration for plant library, so users could find plant information.</li>
+                        <li>Custom built profanity filter with warnings if multiple inappropriate actions occured.</li>
+                        <li>Implemented reset password and confirm email with code sent to the users email.</li>
+                        <li>Helped with editing and view password.</li>
+                    </ul>
                 </div>
 
                 <div className="project-two-right">
+                    <h2>Preview</h2>
+                    <div className="image-scroll">
                     <img src="/plantpalhome.png" alt="Home" className="project-two-image1"/>
                     <img src="/plantpalfriends.png" alt="Friends" className="project-two-image2"/>
+                    <img src="/plantpalgarden.png" alt="Garden" className="project-two-image3"/>
+                    </div>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     );
 }

@@ -1,46 +1,78 @@
-.project-three {
-    padding: 2rem;
+.project-three-container {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 2rem;
+
+    max-width: 1400px;
+    margin: 0 auto 3rem;
+    padding: 0 2rem;
+}
+
+
+.project-three-left,
+.project-three-table,
+.project-three-map,
+.project-three-route {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 16px;
+    padding: 1.5rem;
+
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+
+    color: #f1f5f9;
+}
+
+
+
+.project-three-right {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 16px;
+    padding: 1.5rem;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-.project-two-title {
-    font-size: 2.5rem;
-    font-weight: bold;
+    color: #f1f5f9;
 }
 
-.project-three-container {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    align-items: flex-start;
+@media (max-width: 430px) {
+    .project-page {
+        padding: 1rem 14px 3rem;
+        max-height: none;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    .project-three-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        padding: 0 6px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
 }
 
-.project-three-left {
-    flex: 1 1 300px;
-    background: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
-}
-.project-three-right {
-    flex: 1 1 300px;
-    background: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
+.project-three-left p,
+.project-three-left li {
+    font-size: 1rem;
+    line-height: 1.3;
 }
 
-.project-three-image1 {
-    width: 100%;
-    margin-top: 1rem;
-    border-radius: 8px;
+.project-three-left ul {
+    padding-left: 20px;
+    margin-bottom: 1rem;
 }
-.project-three-image2 {
-    width: 100%;
-    margin-top: 1rem;
-    border-radius: 8px;
+
+.project-three-left li {
+    margin-bottom: 6px;
 }
-.project-three-image3 {
-    width: 100%;
-    margin-top: 1rem;
-    border-radius: 8px;
-}
+
+
